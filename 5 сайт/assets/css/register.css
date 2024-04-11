@@ -1,0 +1,522 @@
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header*/
+
+.header{
+    width: 1920px;
+    height: 405px;
+    background: url(../images/Login/HeaderBgModalForms.png) no-repeat center center / cover;
+}
+
+.headercontainer{
+    width: 1213px;
+    height: 40px;
+    padding: 61px 0px;
+    margin: 0px 339px 231px 368px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlogo{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.headernav{
+    width: 376px;
+    display: flex;
+    justify-content: space-between;
+}
+.navitem{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 9px 0px;
+}
+
+.headerlog{
+    width: 282px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0px;
+}
+
+.logbtn{
+    width: 132px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 16px;
+    margin-right: 25px;
+}
+
+.logbtn2{
+    width: 132px;
+    padding-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #BB6DF3;
+    background: #FFFFFF;
+    border-radius: 30px;    
+}
+
+/* SECTION 1 */
+.registercontainer{
+    width: 1920px;
+    height: 1350px;
+    background: url(../images/Register/BackGroundN.png) no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -160px;
+}
+
+.registercontainer .registerform{
+    display: flex;
+    align-items: center;
+    margin-left: -175px;
+    width: 830px;
+    white-space: nowrap;
+}
+
+.registercontainer .registertitle{
+    text-transform: uppercase;
+    color: #3B668D; 
+    font-size: 72px; 
+    font-weight: 900; 
+    letter-spacing: 0.405em; 
+    font-family: "Roboto", sans-serif;
+    margin-top: 80px;
+}
+
+.registercontainer .registername{
+    color: #3b668d;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.905em;
+    margin-top: 15px;
+    margin-bottom: 88px;
+}
+
+.registercontainer input[type="email"]{
+    width: 630px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    border-radius: 61px;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.registercontainer input[type="password"]{
+    width: 630px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    border-radius: 61px;
+    padding-left: 40px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.registercontainer input[type="password"]::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Comfortaa", sans-serif;
+}
+
+.registercontainer input[type="email"]::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Comfortaa", sans-serif;
+}
+
+.registercontainer .registerform label{
+    width: 175px;
+    color: #3b3f8d;
+    font-family: "Comfortaa", sans-serif;
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 45px;
+
+}
+
+.registercontainer .refresh{
+    width: 42px;
+    height: 42px;
+    margin-left: 13px;
+    display: flex;
+    animation: rotating 2s infinite;
+}
+
+.registercontainer .RefreshIng:hover{
+    cursor: pointer;
+}
+
+.registercontainer input[type="text"]{
+    width: 630px;
+    height: 100px;
+    margin-left: 31px;
+    border: 0px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    border-radius: 61px;
+    padding-left: 40px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.registercontainer input[type="text"]::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Comfortaa", sans-serif;
+}
+
+.registerbtn{
+    width: 350px;
+    height: 79px;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+
+.registerform2 p{
+    margin-left: 10px;
+    margin-right: 54px;
+    color: #adadad;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.registerform2{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+/* SECTION 2 */
+
+.downloasection{
+    width: 1920px;
+    height: 409px;
+}
+
+.contentwrapper{
+    width: 1213px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.downloadcontainer{
+    width: 1920px;
+    height: 261px;
+    background: url(../images/index/Sec4Bg.png) no-repeat center center / cover;
+}
+
+.downloadblock{
+    width: 100%;
+    height: 106px;
+    display: flex;
+}
+
+.blockscontainer{
+    display: flex;
+}
+
+.blocktexts{
+    margin-left: 30px;
+    padding-top: 12px;
+}
+
+.blocknumber{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+    color: #425B8C;   
+}
+
+.blocktext{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    margin-top: 16px;
+    color: #718DC2;
+    white-space: nowrap;
+}
+
+.blockicon{
+    padding-top: 20px;
+    width: 74px;
+    height: 74px;
+}
+
+/* FOOTER */
+
+.footersection{
+    width: 1920px;
+    height: 1085px;
+    background: url(../images/index/FooterBg.png) no-repeat center center / cover;
+}
+
+.footercontainer{
+    padding-top: 448px;
+    width: 1600px;
+    height: 578px;
+    margin: 0 auto;
+}
+
+.columnscontainer{
+    width: 1467px;
+    height: 407px;
+    margin-bottom: 79px;
+    display: flex;
+}
+
+.column1container{
+    width: 422px;
+    height: 407px;
+    margin-right: 167px;
+}
+
+.column2container{
+    width: 418px;
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 174px;
+}
+
+.column3container{
+    width: 285px;
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+}
+
+.columntitle{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+.columntext{
+    width: 418px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.columnshare{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.columnemail{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.column3text{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.copyrighttext{
+    margin: 65px 456px 0px 456px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
